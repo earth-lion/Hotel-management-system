@@ -1,0 +1,65 @@
+body {
+    background-image: url('img/wallhaven-m3d9vm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+background-color: rgba(12, 181, 215, 0.575);
+color: #000;
+padding: 20px 0;
+text-align: center;
+width: 80%;
+max-width: 600px;
+border-radius: 20px;
+margin-top: 100px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #267;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.buttons a {
+    background-color: #267;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #989696;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.buttons a:hover {
+    background-color: #3be108;
+    color: #fff;
+    font-size: xx-large;
+    border-radius: 8px;
+    border: 1px solid #ffffff00;
+}

@@ -1,0 +1,167 @@
+body{
+    background-image: url("img/image_share_1702578897177.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+div.fieldset{
+    width: 500px;
+    height: 575px;
+    background:#999366;
+    border-radius: 10px;
+}
+.img{
+    width: 150px;
+    height: 100%;
+    border-radius: 12px;
+}
+form.form{
+    padding: 25px;
+    border-radius: 12px;
+}
+img.user{
+    width: 40px;
+    height: 30px;
+    border-radius: 12px;
+}
+img.pass{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border:4px solid #ddd;
+}
+img.email{
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+}
+.a{
+    transition-property: value;
+    float: right;
+    width: 150px;
+    height: 45px;
+    font-size: xx-large;
+    text-decoration: none;
+    background-color: coral;
+    border-radius: 10px;
+}
+.f{
+    float: right;
+    color: black;
+    float: left;
+}
+.body 
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #aaa;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 97vh;
+            
+         }
+        .container {
+            max-width: 400px;
+            padding: 40px;
+            height: 660px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(92, 20, 194, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .container h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .form {
+            text-align: left;
+            width: 100%;
+            color: cornsilk;
+        }
+        .form input[type="text"],
+        .form input[type="password"],
+        .form button {
+            width: calc(100% - 24px);
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 19px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+            background-color: rgba(249, 249, 249, 0.3); 
+            height: 50px;
+            border-style: hidden;
+            font-size: large;
+        }
+        .form button {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .form button:hover {
+            background-color: #45a049;
+        }
+        .form button:focus {
+            outline: none;
+        }
+        .form .error {
+            color: red;
+            margin-bottom: 15px;
+        }
+        .img-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .img-container img {
+            width: 190px;
+            height: 190px;
+            object-fit: contain;
+        }
+        .form .user-icon {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .form .user-icon img {
+            width: 40px;
+            height: 50px;
+            object-fit: contain;
+            margin-right: 20px;
+        }
+        .username{
+            width: 10px;
+            height: 50px;
+        }
+        .icon{
+            width: 60px;
+            height: 50px;
+            float: right;
+            margin-top: -69px;
+            margin-right: 27px;
+            border-radius: 160vh;
+
+        }
+        .iconpass{
+            width: 20px;
+            height: 50px;
+            float: right;
+            margin-top: -60px;
+            margin-right: 40px;
+            border-radius: 160vh;
+        }
